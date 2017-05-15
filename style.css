@@ -1,0 +1,6 @@
+input {
+	outline: none;
+}
+.errors {
+	border: 1px solid red;
+}

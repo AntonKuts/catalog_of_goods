@@ -1,0 +1,217 @@
+
+*{
+margin: 0;
+font-family: Cuprum;
+}
+
+html {
+  font-size: 16px;
+}
+
+#wrapper {
+  max-width: 1000px;
+  height: 670px;
+    border: 2px solid black;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.topMenu {
+  width: 1000px;
+  height: 30px;
+    background: rgb(175, 176, 170);
+}
+
+.leftMenu {
+  width: 170px;
+  height: 30px;
+  float: left;
+}
+
+.text {
+  width: 700px;
+  height: 30px;
+  float: left;
+}
+
+.rightMenu {
+  width: 816px;
+  height: 30px;
+  float: right;
+}
+.bigbox{
+  width: 1000px;
+  height: 645px;
+  border: 2px solid black;
+}
+.contBox {
+  width: 170px;
+  height: 644px;
+  float: left;
+}
+
+#out {
+  width: 816px;
+  height: 644px;
+  border: 2px solid black;
+  overflow: hidden;
+  float: right;
+}
+
+.cart {
+  width: 260px;
+  height: 310px;
+  border: 1px solid #e5e5e5;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+}
+
+.img {
+  max-width: 100%;
+  display: table;
+  max-height: 100px;
+  margin: 20px auto 50px auto;
+}
+
+.BFGName {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 17px;
+    text-align: center;
+    height: 15px;
+}
+
+.BFGPPrice {
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.btn {
+  position: relative;
+  left: 90px;
+}
+
+.BFGPrice {
+  color: #ffffff;
+  background-image: url('images/btn-copy-16.png');
+  height: 38px;
+  width: 141px;
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+  top: 10px;
+}
+
+.BFGPPriceW {
+  color: #ffffff;
+}
+
+.allGoods {
+  width: 940px;
+  height: 347px;
+}
+
+.allGoods:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.newflag2{
+  float: right;
+  margin: 0;
+  position: relative;
+  bottom: 273px;
+}
+#button1 {
+  width: 50px;
+  height: 30px;
+}
+#button2 {
+  width: 50px;
+  height: 30px;
+}
+
+@media screen and (max-width: 960px){
+  html {
+    font-size: 17px;
+  }
+
+  #out {
+    width: 630px;
+    height: 700px;
+  }
+
+
+  topMenu {
+    width: 950px;
+    }
+  @media screen and (max-width: 720px){
+    #wrapper {
+      height: 800px;
+}
+    html {
+      font-size: 18px;
+    }
+    .topMenu {
+      height: 40px;
+      width: 710px;
+    }
+
+    #button1 {
+      width: 55px;
+      height: 35px;
+}
+#button2 {
+    width: 55px;
+  height: 35px;
+}
+
+#out {
+  width: 630px;
+  height: 700px;
+}
+
+  .cart {
+    width: 300px;
+    height: 350px;
+}
+
+    @media screen and (max-width: 640px){
+      html {
+        font-size: 19px;
+      }
+      .topMenu {
+        width: 640px;
+      }
+
+
+      @media screen and (max-width: 480px){
+        #wrapper {
+          height: 800px;
+        }
+        html {
+          font-size: 25px;
+        }
+        .topMenu {
+          width: 470px;
+        }
+
+        .cart {
+          width: 350px;
+          height: 400px;
+}
+        #out {
+          width: 360px;
+          height: 800px;
+        }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>site</title>
+  <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="topMenu">
+      <div class="leftMenu">
+        <p>Фильтр</p>
+      </div>
+      <div class="rightMenu">
+        <div class="text">
+          <p>Сортировка: по цене</p>
+        </div>
+        <button type="button1" name="button1" id="button1">max</button>
+        <button type="button2" name="button2" id="button2">min</button>
+      </div>
+    </div>
+    <div class="bigbox">
+      <div class="contBox">
+        <h3>Цена:</h3>
+        <input type="range" value="0" min="0" max="0" id="fprice">
+        <p class=outMaxPr></p>
+        <div id=fproducer>
+          <form>
+            <h3>Производители:<br></h3>
+            <input type="radio" name="producer" value="Bosch" id="Bosch">Bosch<br>
+            <input type="radio" name="producer" value="TexAc" id="TexAc">TexAc<br>
+            <input type="radio" name="producer" value="Craft" id="Craft">Craft<br>
+            <input type="radio" name="producer" value="Днепр-М" id="Днепр-М">Днепр-М<br>
+            <input type="radio" name="producer" value="Титан" id="Титан">Титан<br>
+            <input type="radio" name="producer" value="Metabo" id="Metabo">Metabo<br>
+          </form>
+        </div>
+        <div id=fpower>
+          <form>
+            <h3>Питание:<br></h3>
+            <input type="radio" name="producer" value="Bosch" id="Battery">Аккумуляторные<br>
+            <input type="radio" name="producer" value="TexAc">Сетевые<br>
+          </form>
+        </div>
+      </div>
+
+      <div id="out">
+      </div>
+    </div>
+  </div>
+  <!--wrapper-->
+
+  <script src="goods.js" charset="utf-8"></script>
+</body>
+
+</html>
